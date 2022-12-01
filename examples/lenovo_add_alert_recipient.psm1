@@ -220,7 +220,7 @@ function lenovo_add_alert_recipient
             }
             else 
             {
-                $setting_dict["RecipientSettings"]["EnabxledAlerts"]["WarningEvents"]["AcceptedEvents"] = $WarningEvents
+                $setting_dict["RecipientSettings"]["EnabledAlerts"]["WarningEvents"]["AcceptedEvents"] = $WarningEvents
             }
         }
 
